@@ -10339,6 +10339,8 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 
 
 
+
+
 .side{
   background: rgba( 255, 255, 255, 0.95 );
   padding:20px;
@@ -10352,7 +10354,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
 
 
 .center-foot{
-  text-align:center;
+  text-align:left;
   margin-left:20%;
 }
 .right-foot{
@@ -10413,6 +10415,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
   .float{
     width:40px;
 	  height:40px;
+    right:40px;
   }
   .float img{
     height: 25px;
@@ -10430,6 +10433,7 @@ ul.style-default li:last-child, ol.style-default li:last-child {
       display: inline-block;
       border:none;
   }
+
 
   select {
       display: none; /* Hide the original dropdown */
